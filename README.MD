@@ -32,6 +32,10 @@ The input prompt is tokenized and converted into indices. The LSTM model, in a s
 The generated indices are converted back to tokens (words), which are then joined into a string and displayed in the web application.
 
 ## Running the Application
+Download best-val-Istm_Im.pt from following link, and place it in app folder.   
+
+https://drive.google.com/file/d/1Gn5yXM7kFoA8m1sNtCD-fVs5sBpj2xlQ/view?usp=sharing 
+
 To run the application, please open a terminal in the app folder and type:
 
 python app.py
