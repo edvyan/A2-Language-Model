@@ -3,6 +3,8 @@
 ## Overview
 This Dash application allows users to input a text prompt, which is then fed to a pre-trained LSTM (Long Short-Term Memory) language model. The model generates a continuation of the input text, demonstrating a simple form of natural language processing and text prediction. 
 
+![App Interface](app_interface.jpg)
+
 ## Components of the Web Application
 The Dash application is composed of following components: 
 1. Dash Framework   
@@ -31,8 +33,8 @@ The input prompt is tokenized and converted into indices. The LSTM model, in a s
 ### 3. Output Formatting
 The generated indices are converted back to tokens (words), which are then joined into a string and displayed in the web application.
 
-## Running the Application
-Download best-val-Istm_Im.pt from following link, and place it in app folder.   
+## Run the Application
+Download the pre-trained best-val-Istm_Im.pt from following link, and place it in app folder.   
 
 https://drive.google.com/file/d/1Gn5yXM7kFoA8m1sNtCD-fVs5sBpj2xlQ/view?usp=sharing 
 
